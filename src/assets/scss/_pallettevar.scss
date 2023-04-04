@@ -1,0 +1,54 @@
+@import './pallete';
+
+
+body{
+//primary color variable using pallette
+    --col-primary-50:#{map-get($primary ,50)};
+    --col-primary-100:#{map-get($primary ,100)};
+    --col-primary-200:#{map-get($primary ,200)};
+    --col-primary-300:#{map-get($primary ,300)};
+    --col-primary-400:#{map-get($primary ,400)};
+    --col-primary-500:#{map-get($primary ,500)};
+    --col-primary-600:#{map-get($primary ,600)};
+    --col-primary-700:#{map-get($primary ,700)};
+    --col-primary-800:#{map-get($primary ,800)};
+    --col-primary-900:#{map-get($primary ,900)};
+    --col-on-primary-100:#{map-get($primary ,A100)};
+    --col-on-primary-200:#{map-get($primary ,A200)};
+    --col-on-primary-400:#{map-get($primary ,A400)};
+    --col-on-primary-700:#{map-get($primary ,A700)};
+
+//dark color variable using pallette
+    --col-dark-50:#{map-get($dark ,50)};
+    --col-dark-100:#{map-get($dark ,100)};
+    --col-dark-200:#{map-get($dark ,200)};
+    --col-dark-300:#{map-get($dark ,300)};
+    --col-dark-400:#{map-get($dark ,400)};
+    --col-dark-500:#{map-get($dark ,500)};
+    --col-dark-600:#{map-get($dark ,600)};
+    --col-dark-700:#{map-get($dark ,700)};
+    --col-dark-800:#{map-get($dark ,800)};
+    --col-dark-900:#{map-get($dark ,900)};
+    --col-on-dark-100:#{map-get($dark ,A100)};
+    --col-on-dark-200:#{map-get($dark ,A200)};
+    --col-on-dark-400:#{map-get($dark ,A400)};
+    --col-on-dark-700:#{map-get($dark ,A700)};
+
+//warn color variable using pallette
+    --col-warn-50:#{map-get($warn ,50)};
+    --col-warn-100:#{map-get($warn ,100)};
+    --col-warn-200:#{map-get($warn ,200)};
+    --col-warn-300:#{map-get($warn ,300)};
+    --col-warn-400:#{map-get($warn ,400)};
+    --col-warn-500:#{map-get($warn ,500)};
+    --col-warn-600:#{map-get($warn ,600)};
+    --col-warn-700:#{map-get($warn ,700)};
+    --col-warn-800:#{map-get($warn ,800)};
+    --col-warn-900:#{map-get($warn ,900)};
+    --col-on-warn-100:#{map-get($warn ,A100)};
+    --col-on-warn-200:#{map-get($warn ,A200)};
+    --col-on-warn-400:#{map-get($warn ,A400)};
+    --col-on-warn-700:#{map-get($warn ,A700)};
+}
+
+
