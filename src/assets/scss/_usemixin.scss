@@ -20,8 +20,8 @@
 
 //generating theme classes
 @include theme-class($primary, '.col-', 'color','primary');
-@include theme-class($dark, '.col-', 'color','dark');
+@include theme-class($accent, '.col-', 'color','accent');
 @include theme-class($warn, '.col-', 'color','warn');
-
+@include theme-class($theme_bg, '.col-', 'color','theme_bg');
 //generate font-weight
 @include fontweight('font-weight','fw-',100,10)
